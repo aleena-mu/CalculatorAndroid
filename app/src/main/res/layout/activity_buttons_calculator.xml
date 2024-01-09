@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Buttons_Calculator">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="415dp"
+        android:layout_height="458dp"
+        android:backgroundTint="@color/white"
+        app:columnCount="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:rowCount="5">
+
+        <Button
+            android:id="@+id/button_clear"
+            style="@style/myButton"
+            android:layout_width="97dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="5dp"
+            android:text="C"
+            android:textColor="@color/red"
+            android:textSize="25sp"
+            app:layout_column="0"
+            app:layout_row="0"
+            android:onClick="onClearButtonClick"
+            />
+
+        <Button
+            android:id="@+id/button_delete"
+            style="@style/myButton"
+            android:layout_width="97dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="5dp"
+            android:text="del"
+
+            android:textSize="25sp"
+            android:onClick="onDeleteButtonClick"/>
+
+        <Button
+            android:id="@+id/button_modulus"
+            style="@style/myButton"
+            android:layout_width="97dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="5dp"
+            android:text="%"
+
+            android:textSize="25sp"
+            android:onClick="onButtonClick"/>
+
+
+        <Button
+            android:id="@+id/button_division"
+            style="@style/myButton"
+            android:layout_width="97dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="5dp"
+            android:text="/"
+
+            android:textSize="25sp"
+            android:onClick="onButtonClick"/>
+
+        <Button
+            android:id="@+id/seven"
+            style="@style/MaterialAlertDialog.Material3"
+            android:layout_width="97dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="5dp"
+            android:text="7"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:onClick="onButtonClick"/>
+
+        <Button
+            android:id="@+id/eight"
+            style="@style/MaterialAlertDialog.Material3"
+            android:layout_width="97dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="5dp"
+            android:text="8"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:onClick="onButtonClick"/>
+
+        <Button
+            android:id="@+id/nine"
+            style="@style/MaterialAlertDialog.Material3"
+            android:layout_width="97dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="5dp"
+            android:text="9"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:onClick="onButtonClick"/>
+
+        <Button
+            android:id="@+id/button_multiply"
+            style="@style/myButton"
+            android:layout_width="97dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="5dp"
+            android:text="*"
+
+            android:textSize="25sp"
+            android:onClick="onButtonClick"/>
+
+        <Button
+            android:id="@+id/four"
+            style="@style/MaterialAlertDialog.Material3"
+            android:layout_width="97dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="5dp"
+            android:text="4"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:onClick="onButtonClick"/>
+
+        <Button
+            android:id="@+id/five"
+            style="@style/MaterialAlertDialog.Material3"
+            android:layout_width="97dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="5dp"
+            android:text="5"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:onClick="onButtonClick"/>
+
+        <Button
+            android:id="@+id/six"
+            style="@style/MaterialAlertDialog.Material3"
+            android:layout_width="97dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="5dp"
+            android:text="6"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:onClick="onButtonClick"/>
+
+        <Button
+            android:id="@+id/button_subtraction"
+            style="@style/myButton"
+            android:layout_width="97dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="5dp"
+            android:text="-"
+
+            android:textSize="25sp"
+            android:onClick="onButtonClick"/>
+
+        <Button
+            android:id="@+id/one"
+            style="@style/MaterialAlertDialog.Material3"
+            android:layout_width="97dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="5dp"
+            android:text="1"
+            android:onClick="onButtonClick"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/two"
+            style="@style/MaterialAlertDialog.Material3"
+            android:layout_width="97dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="5dp"
+            android:text="2"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:onClick="onButtonClick"/>
+
+        <Button
+            android:id="@+id/three"
+            style="@style/MaterialAlertDialog.Material3"
+            android:layout_width="97dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="5dp"
+            android:text="3"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:onClick="onButtonClick"/>
+
+        <Button
+            android:id="@+id/button_addition"
+            style="@style/myButton"
+            android:layout_width="97dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="5dp"
+            android:text="+"
+
+            android:textSize="25sp"
+            android:onClick="onButtonClick"/>
+
+        <Button
+            android:id="@+id/button_dot"
+            style="@style/MaterialAlertDialog.Material3"
+            android:layout_width="97dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="5dp"
+            android:text="."
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:onClick="onButtonClick"/>
+
+        <Button
+            android:id="@+id/zero"
+            style="@style/MaterialAlertDialog.Material3"
+            android:layout_width="97dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="5dp"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:onClick="onButtonClick"/>
+
+        <Button
+            android:id="@+id/button_history"
+            style="@style/myButton"
+            android:layout_width="97dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="5dp"
+            android:text="H"
+
+            android:textSize="25sp"
+            android:onClick="onButtonClick"/>
+
+        <Button
+            android:id="@+id/button_equal_to"
+            style="@style/myButton"
+            android:layout_width="97dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="5dp"
+            android:text="="
+
+            android:textSize="25sp"
+            android:onClick="onEqualsButtonClick"/>
+
+
+    </androidx.gridlayout.widget.GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

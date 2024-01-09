@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Calculator" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+       <item name="colorPrimary">@color/black</item>
+    </style>
+
+    <style name="myButton" parent="Widget.AppCompat.Button">
+        <item name="backgroundTint">@color/otherButtonColor</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+
+    <style name="myButtonNumbers" parent="Widget.Material3.Search.Toolbar.Button.Navigation">
+    <item name="android:background">@drawable/buttonstyle</item>
+    <item name="android:textColor">@color/white</item>
+    </style>
+
+
+
+
+</resources>

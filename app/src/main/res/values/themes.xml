@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Calculator" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/black</item>
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+    <style name="myButtonNumbers" parent="Widget.Material3.Search.Toolbar.Button.Navigation">
+        <item name="android:background">@color/numberButtonColor</item>
+        <item name="android:textColor">@color/white</item>
+
+
+    </style>
+
+    <style name="myButton" parent="Widget.AppCompat.Button">
+        <item name="backgroundTint">@color/otherButtonColor</item>
+        <item name="android:textColor">@color/white</item>
+
+
+    </style>
+    <style name="textView" parent="Widget.AppCompat.TextView">
+        <item name="backgroundTint">@color/otherButtonColor</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">50sp</item>
+
+
+
+    </style>
+
+    <style name="Theme.Calculator" parent="Base.Theme.Calculator" />
+</resources>
